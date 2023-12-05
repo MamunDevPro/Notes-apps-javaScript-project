@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Grand+Hotel&family=Inter:wght@300;400;500;700&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Catamaran', sans-serif;
+ font-family: 'Grand Hotel', cursive;
+ font-family: 'Inter', sans-serif;
+}
+
+.container{
+
+ width: 100%;
+ min-height: 100vh;
+ background: linear-gradient(125deg, #CFA6F5 1.91%, #95BDFB 108.18%);
+ color: #fff;
+ padding-top: 4%;
+ padding-left: 10%;
+}
+.container h1{
+ display: flex;
+ align-items: center;
+ font-size: 48px;
+ font-weight: 700;
+ font-style:normal;
+}
+.container h1 img{
+ width: 111px;
+ height: 111px;
+ /* flex-shrink: 0; */
+}
+.container button{
+ display: flex;
+ align-items: center;
+ align-content: center;
+ width: 262px;
+ height: 77px;
+ border: 0;
+ outline: 0;
+ border-radius: 36px;
+ background: linear-gradient(180deg, #A53DFE -58.44%, #601D98 149.35%);
+ color: #DFBEF7;
+font-size: 22px;
+font-weight: 700;
+padding: 25px 40px;
+margin: 30px 0 20px;
+cursor: pointer;
+}
+.input-box{
+ position: relative;
+ width: 100%;
+ max-width: 705px;
+ min-height: 231px;
+ color: #333;
+ border-radius: 5px;
+background: #F3F3F3;
+outline: 0;
+padding: 20px;
+margin: 20px 0;
+ 
+}
+.input-box img{
+ position: absolute;
+ width: 29px;
+ height: 36px; 
+ right: 20px;
+ bottom: 20px;
+ cursor: pointer;
+}
